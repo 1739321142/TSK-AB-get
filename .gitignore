@@ -6,5 +6,6 @@ a1/
 a2/
 a3/
 AssetBundle/
+catalog.json
 
 # 忽略所有 100MB 以上可能存在的压缩包
