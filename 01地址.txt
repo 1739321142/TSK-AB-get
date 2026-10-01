@@ -1,0 +1,2 @@
+https://d3mya90gbacu0m.cloudfront.net/prod/StreamingAssets/aa/catalog.bundle
+https://d3mya90gbacu0m.cloudfront.net/prod/StreamingAssets/aa/WebGL/017648b7db50e1a1450c0f54aeeb6c22.bundle
