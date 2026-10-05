@@ -90,117 +90,6 @@
         ]
       }
     ],
-    "武器开关#3": [
-      {
-        "name": "武器关",
-        "file": "weapon_0",
-        "text": "武器关",
-        "var_floats": [
-          {
-            "name": "we",
-            "type": 1,
-            "code": "equal 0"
-          },
-          {
-            "name": "we",
-            "type": 2,
-            "code": "assign 1"
-          }
-        ]
-      },
-      {
-        "name": "武器开",
-        "file": "weapon_1",
-        "text": "武器开",
-        "var_floats": [
-          {
-            "name": "we",
-            "type": 1,
-            "code": "equal 1"
-          },
-          {
-            "name": "we",
-            "type": 2,
-            "code": "assign 0"
-          }
-        ],
-        "blend_mode": 1
-      }
-    ],
-    "特效开关#2": [
-      {
-        "name": "特效开",
-        "file": "show_layer_f_b",
-        "text": "特效开",
-        "var_floats": [
-          {
-            "name": "ef",
-            "type": 1,
-            "code": "equal 1"
-          },
-          {
-            "name": "ef",
-            "type": 2,
-            "code": "assign 0"
-          }
-        ]
-      },
-      {
-        "name": "特效关",
-        "file": "hide_layer_f_b",
-        "text": "特效关",
-        "var_floats": [
-          {
-            "name": "ef",
-            "type": 1,
-            "code": "equal 0"
-          },
-          {
-            "name": "ef",
-            "type": 2,
-            "code": "assign 1"
-          }
-        ],
-        "blend_mode": 1
-      }
-    ],
-    "背景开关#1": [
-      {
-        "name": "背景开",
-        "file": "show_layer_c",
-        "text": "背景开",
-        "var_floats": [
-          {
-            "name": "bg",
-            "type": 1,
-            "code": "equal 1"
-          },
-          {
-            "name": "bg",
-            "type": 2,
-            "code": "assign 0"
-          }
-        ]
-      },
-      {
-        "name": "背景关",
-        "file": "hide_layer_c",
-        "text": "背景关",
-        "var_floats": [
-          {
-            "name": "bg",
-            "type": 1,
-            "code": "equal 0"
-          },
-          {
-            "name": "bg",
-            "type": 2,
-            "code": "assign 1"
-          }
-        ],
-        "blend_mode": 1
-      }
-    ],
     "表情#4": [
       {
         "name": "face1",
@@ -265,6 +154,111 @@
         "blend_mode": 1
       }
     ],
+    "武器开关#3": [
+      {
+        "name": "武器关",
+        "file": "weapon_0",
+        "var_floats": [
+          {
+            "name": "we",
+            "type": 1,
+            "code": "equal 0"
+          },
+          {
+            "name": "we",
+            "type": 2,
+            "code": "assign 1"
+          }
+        ]
+      },
+      {
+        "name": "武器开",
+        "file": "weapon_1",
+        "var_floats": [
+          {
+            "name": "we",
+            "type": 1,
+            "code": "equal 1"
+          },
+          {
+            "name": "we",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ],
+        "blend_mode": 1
+      }
+    ],
+    "特效开关#2": [
+      {
+        "name": "特效开",
+        "file": "show_layer_f_b",
+        "var_floats": [
+          {
+            "name": "ef",
+            "type": 1,
+            "code": "equal 1"
+          },
+          {
+            "name": "ef",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "name": "特效关",
+        "file": "hide_layer_f_b",
+        "var_floats": [
+          {
+            "name": "ef",
+            "type": 1,
+            "code": "equal 0"
+          },
+          {
+            "name": "ef",
+            "type": 2,
+            "code": "assign 1"
+          }
+        ],
+        "blend_mode": 1
+      }
+    ],
+    "背景开关#1": [
+      {
+        "name": "背景开",
+        "file": "show_layer_c",
+        "var_floats": [
+          {
+            "name": "bg",
+            "type": 1,
+            "code": "equal 1"
+          },
+          {
+            "name": "bg",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "name": "背景关",
+        "file": "hide_layer_c",
+        "var_floats": [
+          {
+            "name": "bg",
+            "type": 1,
+            "code": "equal 0"
+          },
+          {
+            "name": "bg",
+            "type": 2,
+            "code": "assign 1"
+          }
+        ],
+        "blend_mode": 1
+      }
+    ],
     "idle": [
       {
         "file": "wait",
@@ -275,9 +269,9 @@
     ]
   },
   "options": {
-    "scale_factor": 0.13,
-    "position_x": -0.3053029,
-    "position_y": 2.90530372,
+    "scale_factor": 0.182000011,
+    "position_x": -0.48575747,
+    "position_y": 3.65075946,
     "tex_type": 0,
     "edge_padding": false,
     "shader_type": 1
@@ -287,16 +281,16 @@
     {
       "atlas": "combined_model.atlas",
       "tex_names": [
-        "ch_1088002_c",
-        "ch_1088002_b",
-        "ch_1088002_m1",
-        "ch_1088002_f"
+        "ch_1077004_b",
+        "ch_1077004_c",
+        "ch_1077004_f",
+        "ch_1077004_m1"
       ],
       "textures": [
-        "ch_1088002_c.png",
-        "ch_1088002_b.png",
-        "ch_1088002_m1.png",
-        "ch_1088002_f.png"
+        "ch_1077004_b.png",
+        "ch_1077004_c.png",
+        "ch_1077004_f.png",
+        "ch_1077004_m1.png"
       ]
     }
   ]
